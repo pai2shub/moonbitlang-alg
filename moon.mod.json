@@ -1,11 +1,14 @@
 {
   "name": "pai2shub/alg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "readme": "README.md",
-  "repository": "",
+  "repository": "https://github.com/pai2shub/moonbitlang-alg.git",
   "license": "Apache-2.0",
-  "keywords": [],
+  "keywords": [
+    "MoonBit",
+    "Online Judge"
+  ],
   "description": "MoonBit Online Judge Problem Set Solved",
-  "homepage": "https://github.com/pai2shub/moonbitlang-alg",
+  "homepage": "https://github.com/pai2shub/moonbitlang-alg.git",
   "source": "src"
 }

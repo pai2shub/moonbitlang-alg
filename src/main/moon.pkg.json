@@ -1,0 +1,6 @@
+{
+  "is-main": true,
+  "import": [
+    "pai2shub/alg/lib"
+  ]
+}

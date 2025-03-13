@@ -10,7 +10,7 @@ fn solution(n : UInt) -> Bool {
     return false
   }
   let limit = n / 2
-  for i = 2U; i < limit; i = i + 2 {
+  for i = 3U; i < limit; i = i + 2 {
     if n % i == 0 {
       return false
     }

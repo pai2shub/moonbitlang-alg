@@ -12,10 +12,14 @@ fn solution(s : String) -> Bool {
       '(' => stack.push(')')
       '{' => stack.push('}')
       '[' => stack.push(']')
-      _ => if stack.is_empty() || stack.unsafe_pop() != c { return false }
+      ')' | '}' | ']' =>
+        if stack.is_empty() || stack.unsafe_pop() != c {
+          return false
+        }
+      _ => println("")
     }
   }
-  return true
+  return stack.is_empty()
 }
 
 ///|

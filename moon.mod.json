@@ -9,6 +9,6 @@
     "Online Judge"
   ],
   "description": "MoonBit Online Judge Problem Set Solved",
-  "homepage": "https://github.com/pai2shub/moonbitlang-alg.git",
-  "source": "src"
+  "source": "src",
+  "homepage": "https://github.com/pai2shub/moonbitlang-alg.git"
 }
